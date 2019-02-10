@@ -1,1 +1,14 @@
-# Smart_Pension_Interview
+1. Write a program that:
+a. Receives a log as argument (webserver.log is provided)
+e.g.: ./<parse> webserver.log
+b. Returns the following:
+> list of webpages with most page views ordered from most pages views to less page views
+e.g.:
+/home 90 visits /index 80 visits etc... > list of webpages with most
+unique page views also ordered
+e.g.:
+/about/2 8 unique views
+/index 5 unique views etc...
+
+
+To use my program after you create class then pass argument the path of .log file as string 
